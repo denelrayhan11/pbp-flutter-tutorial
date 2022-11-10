@@ -249,6 +249,15 @@ List<String> listKelasPBP = ['A', 'B', 'C', 'D', 'E', 'F', 'KI'];
                                   children: <Widget>[
                                     Center(child: const Text('Informasi Data')),
                                     SizedBox(height: 20),
+                                    Center(
+                                          child: Text('Nama : ' + _namaLengkap)
+                                        ),
+                                    Center(
+                                          child: Text('Umur : ' + umur.toString())
+                                        ),
+                                    Center(
+                                          child: Text('Kelas : ' + kelasPBP)
+                                        ),
                                     // TODO: Munculkan informasi yang didapat dari form
                                     TextButton(
                                       onPressed: () {
